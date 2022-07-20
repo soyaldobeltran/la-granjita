@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(../img/portada.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+
+    
+}
+
+.header .title {
+    height: 100vh;
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0)
+    
+   
+
+}
+
+/* Navbar */
+
+.navbar{
+    background-color: black;
+    color: white;
+    
+}
+
+.navbar .navbar-brand{
+    font-family: Lobster;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+}
+
+.boton a , .boton a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+ .boton:hover{
+     transform: scale(1.2);
+ }
+.boton {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color:  rgb(230, 155, 57);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+
+    
+}
+
+
+.casero{
+    color: rgb(230, 155, 57);
+}
+
+
+.footer {
+    background-color: black;
+    height: 250px;
+    width: 100%;
+} 
+
+
+
+.title {
+    color: white;
+}
+
+
+
+#servicios {
+
+    
+    padding: 6rem;
+}
+
+#servicios h2{
+    display: flex;
+    text-align: center;
+    padding-bottom: 5rem;
+    justify-content: center;
+    color: white;
+}
+.card .card-img-top{
+    display: flex;
+    max-width: 40vh;
+    align-self: center;
+    align-items: flex-end;
+}
+
+.card{
+    padding: 1rem;
+    min-height: 20vw;
+    margin: 1rem;
+    background-color: purple;
+    color: white;
+
+}
+
+.card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.footer, i {
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.footer div, i {
+    font-size: 30px;
+    display: flex;
+    padding: 2rem;
+    
+
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.botonwhats {
+
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    font-size:30px;
+    z-index:100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.botonwhats:hover{
+
+    transform: scale(1.2);
+}
+
+/* About */
+
+.about
+{
+    height: auto;
+    text-align: center;
+    background-image: url(../img/tienda.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 5rem 0;
+    
+    
+}
+.about .t-about
+{
+
+    font-size: 3.5rem;
+    font-family: Lobster;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.827);
+    
+}
+.p-about
+{
+    background-color: rgba(0, 0, 0, 0.600);
+    padding: 2rem;
+    max-width: 700px;
+    max-height: 800px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+
+/* Map */
+
+.map
+{
+    height: 450px;
+    border: 0;
+    margin: 0;
+}
